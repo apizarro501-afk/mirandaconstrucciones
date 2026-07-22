@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Miranda Construcciones SPA | Limache</title>
+  <meta name="description" content="30 años construyendo sueños en la Región de Valparaíso. Más de 100 casas construidas. Construcción de casas, quinchos, piscinas, redes de gas, agua y más." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#inicio" class="logo">
+        <img src="images/logo.png" alt="Miranda Construcciones" class="logo-img" />
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#portafolio">Portafolio</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <a href="https://wa.me/56995374842?text=Hola,%20quiero%20una%20cotización" class="btn-whatsapp nav-cta" target="_blank">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.557 4.126 1.526 5.865L.057 23.986l6.305-1.453A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.37l-.36-.214-3.733.86.925-3.617-.235-.372A9.818 9.818 0 1112 21.818z"/></svg>
+        Cotiza aquí
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <p class="hero-tag">30 años construyendo sueños</p>
+      <h1>Construimos la casa<br/><span>que siempre soñaste</span></h1>
+      <p class="hero-desc">Más de 100 casas entregadas desde 1996 en la Región de Valparaíso. Experiencia, calidad y compromiso en cada proyecto.</p>
+      <div class="hero-btns">
+        <a href="https://wa.me/56995374842?text=Hola,%20quiero%20una%20cotización" class="btn-primary" target="_blank">Cotizar por WhatsApp</a>
+        <a href="#servicios" class="btn-outline">Ver servicios</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><strong>30</strong><span>Años de experiencia</span></div>
+      <div class="stat"><strong>100+</strong><span>Casas construidas</span></div>
+      <div class="stat"><strong>1996</strong><span>Desde</span></div>
+      <div class="stat"><strong>SPA</strong><span>Empresa certificada</span></div>
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section class="section nosotros" id="nosotros">
+    <div class="container nosotros-grid">
+      <div class="nosotros-img">
+        <div class="img-placeholder">
+          <span>Foto empresa</span>
+        </div>
+        <div class="badge-años">
+          <strong>30</strong>
+          <span>Años</span>
+        </div>
+      </div>
+      <div class="nosotros-text">
+        <p class="section-tag">Quiénes somos</p>
+        <h2>Una empresa con historia y compromiso</h2>
+        <p>Miranda Construcciones nació en <strong>1996</strong> como empresa familiar en Limache, con la visión de ofrecer construcción de calidad accesible para todos. En <strong>2016</strong> formalizamos nuestra trayectoria como <strong>Miranda Construcciones SPA</strong>.</p>
+        <p>En agosto de 2026 celebramos <strong>30 años</strong> entregando proyectos que mejoran la vida de nuestros clientes. Más de 100 familias han confiado en nosotros para construir sus hogares.</p>
+        <ul class="check-list">
+          <li>Empresa con 30 años de trayectoria</li>
+          <li>Más de 100 casas construidas</li>
+          <li>Cobertura en Región de Valparaíso</li>
+          <li>Equipo técnico especializado</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="section servicios bg-light" id="servicios">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Lo que hacemos</p>
+        <h2>Nuestros servicios</h2>
+        <p class="section-desc">Ofrecemos soluciones integrales de construcción para proyectos residenciales y obras menores.</p>
+      </div>
+      <div class="servicios-grid">
+        <div class="servicio-card">
+          <div class="servicio-icon">🏠</div>
+          <h3>Construcción de casas</h3>
+          <p>Mediterránea, colonial y todos los estilos arquitectónicos. Desde los cimientos hasta las llaves en mano.</p>
+        </div>
+        <div class="servicio-card">
+          <div class="servicio-icon">🔥</div>
+          <h3>Quinchos</h3>
+          <p>Diseño y construcción de quinchos personalizados para disfrutar en familia.</p>
+        </div>
+        <div class="servicio-card">
+          <div class="servicio-icon">🏊</div>
+          <h3>Piscinas</h3>
+          <p>Construcción de piscinas residenciales adaptadas a tu espacio y necesidades.</p>
+        </div>
+        <div class="servicio-card">
+          <div class="servicio-icon">💧</div>
+          <h3>Redes de agua</h3>
+          <p>Instalación y certificación de redes de agua potable y sanitarias.</p>
+        </div>
+        <div class="servicio-card">
+          <div class="servicio-icon">🔧</div>
+          <h3>Redes de gas</h3>
+          <p>Instalación profesional y certificada de redes de gas natural y GLP.</p>
+        </div>
+        <div class="servicio-card">
+          <div class="servicio-icon">❄️</div>
+          <h3>Aire acondicionado y calefacción</h3>
+          <p>Instalación de sistemas de climatización para el confort de tu hogar.</p>
+        </div>
+        <div class="servicio-card">
+          <div class="servicio-icon">🏗️</div>
+          <h3>Alcantarillado</h3>
+          <p>Construcción e instalación de redes de alcantarillado y aguas servidas.</p>
+        </div>
+        <div class="servicio-card">
+          <div class="servicio-icon">🚧</div>
+          <h3>Cierres y portones</h3>
+          <p>Instalación y gestión de permisos municipales para cierres y portones.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTAFOLIO -->
+  <section class="section portafolio" id="portafolio">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Nuestro trabajo</p>
+        <h2>Proyectos realizados</h2>
+        <p class="section-desc">Más de 100 proyectos entregados a lo largo de nuestra historia.</p>
+      </div>
+      <div class="portafolio-grid">
+
+        <div class="porto-card" onclick="openGallery('casa-el-retiro-olmue')">
+          <img src="images/casa-el-retiro-olmue/WhatsApp Image 2026-06-16 at 20.18.37.jpeg" alt="Casa El Retiro, Olmué" />
+          <div class="porto-overlay"><span>Casa El Retiro — Olmué</span></div>
+        </div>
+
+        <div class="porto-card" onclick="openGallery('casa-quebrada-alvarado-200m2')">
+          <img src="images/casa-quebrada-alvarado-200m2/WhatsApp Image 2026-06-16 at 20.18.28.jpeg" alt="Casa Quebrada Alvarado 200 m²" />
+          <div class="porto-overlay"><span>Casa Quebrada Alvarado — 200 m²</span></div>
+        </div>
+
+        <div class="porto-card" onclick="openGallery('casa-ojos-buenos-140m2')">
+          <img src="images/casa-ojos-buenos-140m2/WhatsApp Image 2026-06-16 at 20.22.32.jpeg" alt="Casa Ojos Buenos, Olmué 140 m²" />
+          <div class="porto-overlay"><span>Casa Ojos Buenos — Olmué 140 m²</span></div>
+        </div>
+
+        <div class="porto-card" onclick="openGallery('las-encinas-limache-p1')">
+          <img src="images/las-encinas-limache-p1/WhatsApp Image 2026-06-16 at 20.32.27.jpeg" alt="Condominio Las Encinas, Limache — Parte 1" />
+          <div class="porto-overlay"><span>Cond. Las Encinas — Limache (P.1)</span></div>
+        </div>
+
+        <div class="porto-card" onclick="openGallery('las-encinas-limache-p2')">
+          <img src="images/las-encinas-limache-p2/WhatsApp Image 2026-06-16 at 20.36.51.jpeg" alt="Condominio Las Encinas, Limache — Parte 2" />
+          <div class="porto-overlay"><span>Cond. Las Encinas — Limache (P.2)</span></div>
+        </div>
+
+        <div class="porto-card" onclick="openGallery('mini-condominio-ojos-buenos')">
+          <img src="images/mini-condominio-ojos-buenos/WhatsApp Image 2026-06-16 at 20.59.37.jpeg" alt="Mini Condominio 4 casas — Ojos Buenos, Olmué" />
+          <div class="porto-overlay"><span>Mini Cond. 4 Casas — Ojos Buenos, Olmué</span></div>
+        </div>
+
+        <div class="porto-card" onclick="openGallery('casa-los-pinos-renaca-221m2')">
+          <img src="images/casa-los-pinos-renaca-221m2/WhatsApp Image 2026-06-16 at 20.24.24.jpeg" alt="Casa Los Pinos, Reñaca 221 m² (en construcción)" />
+          <div class="porto-overlay"><span>Casa Los Pinos — Reñaca 221 m²</span></div>
+        </div>
+
+      </div>
+
+      <!-- LIGHTBOX -->
+      <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <button class="lb-close" onclick="closeLightbox()">✕</button>
+        <button class="lb-prev" onclick="event.stopPropagation(); changePhoto(-1)">&#8249;</button>
+        <img id="lbImg" src="" alt="" onclick="event.stopPropagation()" />
+        <p class="lb-caption" id="lbCaption"></p>
+        <button class="lb-next" onclick="event.stopPropagation(); changePhoto(1)">&#8250;</button>
+      </div>
+      <div class="porto-cta">
+        <p>¿Quieres ver más proyectos? Síguenos en nuestras redes sociales.</p>
+        <div class="social-btns">
+          <a href="https://www.instagram.com/miranda.construcciones.476/" target="_blank" class="btn-social instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            Instagram
+          </a>
+          <a href="https://www.facebook.com/p/Miranda-Construcciones-100030951832273" target="_blank" class="btn-social facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            Facebook
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>¿Listo para construir tu proyecto?</h2>
+      <p>Contáctanos hoy y recibe una cotización sin compromiso.</p>
+      <a href="https://wa.me/56995374842?text=Hola,%20quiero%20una%20cotización" class="btn-primary" target="_blank">Hablar por WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section contacto bg-light" id="contacto">
+    <div class="container contacto-grid">
+      <div class="contacto-info">
+        <p class="section-tag">Contáctanos</p>
+        <h2>Estamos en Limache</h2>
+        <p>Puedes visitarnos, llamarnos o escribirnos. Respondemos rápido.</p>
+        <ul class="contact-list">
+          <li>
+            <span class="contact-icon">📍</span>
+            <div><strong>Dirección</strong><br/>Las Violetas 497, Limache</div>
+          </li>
+          <li>
+            <span class="contact-icon">📞</span>
+            <div><strong>Teléfono</strong><br/><a href="tel:+56995374842">+56 9 9537 4842</a></div>
+          </li>
+          <li>
+            <span class="contact-icon">✉️</span>
+            <div><strong>Email</strong><br/><a href="mailto:mirandaconstrucciones@yahoo.es">mirandaconstrucciones@yahoo.es</a></div>
+          </li>
+          <li>
+            <span class="contact-icon">💬</span>
+            <div><strong>WhatsApp</strong><br/><a href="https://wa.me/56995374842" target="_blank">+56 9 9537 4842</a></div>
+          </li>
+        </ul>
+        <div class="social-links">
+          <a href="https://www.instagram.com/miranda.construcciones.476/" target="_blank" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="https://www.facebook.com/p/Miranda-Construcciones-100030951832273" target="_blank" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="contacto-form">
+        <form id="contactForm">
+          <h3>Envíanos un mensaje</h3>
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="+56 9 XXXX XXXX" />
+          </div>
+          <div class="form-group">
+            <label for="servicio">Servicio de interés</label>
+            <select id="servicio" name="servicio">
+              <option value="">Selecciona un servicio</option>
+              <option>Construcción de casa</option>
+              <option>Quincho</option>
+              <option>Piscina</option>
+              <option>Redes de agua</option>
+              <option>Redes de gas</option>
+              <option>Aire acondicionado / Calefacción</option>
+              <option>Alcantarillado</option>
+              <option>Cierres y portones</option>
+              <option>Otro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos sobre tu proyecto..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary full-width">Enviar mensaje</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-main">Miranda</span>
+        <span class="logo-sub">Construcciones</span>
+        <p>30 años construyendo sueños<br/>Las Violetas 497, Limache</p>
+      </div>
+      <div class="footer-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#portafolio">Portafolio</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <div class="footer-contact">
+        <p><a href="tel:+56995374842">+56 9 9537 4842</a></p>
+        <p><a href="mailto:mirandaconstrucciones@yahoo.es">mirandaconstrucciones@yahoo.es</a></p>
+        <p>Miranda Construcciones SPA © 2026</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOTANTE -->
+  <a href="https://wa.me/56995374842?text=Hola,%20quiero%20una%20cotización" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.557 4.126 1.526 5.865L.057 23.986l6.305-1.453A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.37l-.36-.214-3.733.86.925-3.617-.235-.372A9.818 9.818 0 1112 21.818z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
